@@ -15,8 +15,7 @@ import cucumber.api.junit.Cucumber;
 import unittesting.*;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"com.hp.lft.report.CucumberReporter"},
-				 features = "src/leanft")
+@CucumberOptions(plugin = {"com.hp.lft.report.CucumberReporter"})
 
 
 public class LeanFtTest extends UnitTestClassBase {
